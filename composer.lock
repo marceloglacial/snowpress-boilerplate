@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1568d18b7ea236710f9a94f56830cffe",
+    "content-hash": "d82a3438477754215b597d5361eae263",
     "packages": [
         {
             "name": "composer/installers",
@@ -323,47 +323,6 @@
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
             "time": "2020-08-17T07:41:05+00:00"
-        },
-        {
-            "name": "marceloglacial/snow-blocks",
-            "version": "0.22.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/marceloglacial/snow-blocks.git",
-                "reference": "ad1f794b73475704da27e2b29dea8f6ce161cef2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/marceloglacial/snow-blocks/zipball/ad1f794b73475704da27e2b29dea8f6ce161cef2",
-                "reference": "ad1f794b73475704da27e2b29dea8f6ce161cef2",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "1.*",
-                "php": ">=7.0"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marcelo Glacial",
-                    "email": "glacial@gmail.com",
-                    "homepage": "https://marceloglacial.com"
-                }
-            ],
-            "description": "Snow Blocks",
-            "homepage": "https://github.com/marceloglacial/snow-blocks",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/marceloglacial/snow-blocks/tree/0.22.0",
-                "issues": "https://github.com/marceloglacial/snow-blocks/issues"
-            },
-            "time": "2021-01-22T04:09:40+00:00"
         },
         {
             "name": "mustache/mustache",
