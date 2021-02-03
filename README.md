@@ -27,16 +27,11 @@ A WordPress installation optimized for Docker and Heroku
 
 ## Local development
 
-NOTE: Make sure `docker` is running
-
-```
-composer update
-npm run dev
-```
-
-Open your local wordpress on: 
-
-[http://localhost:8080](http://localhost:8080)
+1. Make sure `docker` is running
+2. Open your terminal
+3. Run: `composer update` 
+4. Run: `npm run dev`
+5. Open your local wordpress: [http://localhost:8080](http://localhost:8080)
 
 ## Heroku Setup 
 
