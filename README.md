@@ -33,11 +33,12 @@ A WordPress installation optimized for Docker and Heroku
 ### Heroku Setup 
 
 1. [Connect your github repository to heroku](https://devcenter.heroku.com/articles/github-integration)
-2. Add `JawsDB Maria` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
-3. Add `Heroku Redis` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
-4. Add `heroku/php` on your buildpacks (settings page)
-5. Add your `.env` variables on [settings page](https://devcenter.heroku.com/articles/config-vars)
-6. Open your app
+2. Enable `Automatic deploys` on Deploy pageup
+3. Add `JawsDB Maria` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
+4. Add `Heroku Redis` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
+5. Add `heroku/php` on your buildpacks (settings page)
+6. Add your `.env` variables on [settings page](https://devcenter.heroku.com/articles/config-vars)
+7. Open your app
 
 ## IMPORTANT
 
