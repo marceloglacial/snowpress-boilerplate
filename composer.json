@@ -42,7 +42,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/gutenberg": ">=8.8.0",
     "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": ">=2.3.0",
-    "marceloglacial/snow-blocks": ">=0.11.0"
+    "marceloglacial/snow-blocks": ">=0.11.0",
+    "wpackagist-theme/twentytwentyone": ">=1.0"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
@@ -54,6 +55,9 @@
         "wpackagist-plugin/gutenberg",
         "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
         "marceloglacial/snow-blocks"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
       ]
     },
     "dropin-paths": {},
