@@ -10,7 +10,7 @@ services:
       # - ./:/app
       - ./:/app:rw,cached
     ports:
-      - '8080:8080'
+      - '9090:9090'
     restart: always
     environment:
       DB_HOST: db:3306
@@ -18,8 +18,8 @@ services:
       DB_PASSWORD: not-so-secure
       DB_NAME: wordpress
       MEMCACHED_HOST: memcached:11211
-      WP_HOME: http://localhost:8080
-      WP_SITEURL: http://localhost:8080/wp
+      WP_HOME: http://localhost:9090
+      WP_SITEURL: http://localhost:9090/wp
       WP_ENV: development
 
   db:
