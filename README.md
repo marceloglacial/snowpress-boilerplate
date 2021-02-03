@@ -21,27 +21,26 @@ A WordPress installation optimized for Docker and Heroku
 
 ## How to Install
 
-1. Config your `.env` file using `.env.example` as model
-2. Run composer to install dependencies: `composer update`
-3. Set Wordpress permalinks to `Post Name`
+### Local development
 
-## Local development
+1. Make sure `docker` is running
+2. Config your `.env` file using `.env.example` as template
+3. Open your terminal
+4. Run: `composer update` 
+5. Run: `npm run dev`
+6. Open your local wordpress: [http://localhost:8080](http://localhost:8080)
 
-NOTE: Make sure `docker` is running
-
-```
-composer update
-npm run dev
-```
-
-Open your local wordpress on: 
-
-[http://localhost:8080](http://localhost:8080)
-
-## Heroku Setup 
+### Heroku Setup 
 
 1. [Connect your github repository to heroku](https://devcenter.heroku.com/articles/github-integration)
 2. Add `JawsDB Maria` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
 3. Add `Heroku Redis` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
 4. Add `heroku/php` on your buildpacks (settings page)
 5. Add your `.env` variables on [settings page](https://devcenter.heroku.com/articles/config-vars)
+6. Open your app
+
+## IMPORTANT
+
+Heroku [ephemeral filesystem](https://help.heroku.com/K1PPS2WM/why-are-my-file-uploads-missing-deleted) is not suitable for persistent storage of data/files. That's why **Cloudinary Plugin is a mandatory setup**.
+
+Make sure to select `Cloudinary Only` on Cloudinary > Media settings > Sync > Storage.

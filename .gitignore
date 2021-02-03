@@ -11,6 +11,6 @@ node_modules/
 .DS_Store
 web/wp
 web/app/mu-plugins/*/
-web/app/plugins
-web/app/themes
+web/app/plugins/*/
+web/app/themes/*/
 vendor
