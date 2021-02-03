@@ -33,12 +33,13 @@ A WordPress installation optimized for Docker and Heroku
 ### Heroku Setup 
 
 1. [Connect your github repository to heroku](https://devcenter.heroku.com/articles/github-integration)
-2. Enable `Automatic deploys` on Deploy pageup
+2. Enable `Automatic deploys` on Deploy page
 3. Add `JawsDB Maria` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
 4. Add `Heroku Redis` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
 5. Add `heroku/php` on your buildpacks (settings page)
 6. Add your `.env` variables on [settings page](https://devcenter.heroku.com/articles/config-vars)
-7. Open your app
+7. Configure your <a href='https://uptimerobot.com/'>Uptime Robot</a> to 20 min to avoid dyno resets
+8. Open your app
 
 ## IMPORTANT
 
