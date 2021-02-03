@@ -21,17 +21,14 @@ A WordPress installation optimized for Docker and Heroku
 
 ## How to Install
 
-1. Config your `.env` file using `.env.example` as model
-2. Run composer to install dependencies: `composer update`
-3. Set Wordpress permalinks to `Post Name`
-
 ## Local development
 
 1. Make sure `docker` is running
-2. Open your terminal
-3. Run: `composer update` 
-4. Run: `npm run dev`
-5. Open your local wordpress: [http://localhost:8080](http://localhost:8080)
+2. Config your `.env` file using `.env.example` as template
+3. Open your terminal
+4. Run: `composer update` 
+5. Run: `npm run dev`
+6. Open your local wordpress: [http://localhost:8080](http://localhost:8080)
 
 ## Heroku Setup 
 
