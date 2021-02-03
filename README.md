@@ -24,15 +24,17 @@ A WordPress installation optimized for Docker and Heroku
 2. Run composer to install dependencies: `composer update`
 3. Set Wordpress permalinks to `Post Name`
 
-## Heroku Setup 
-1. Add your `.env` variables 
-2. Add `JawsDB Maria` on your add-ons
-3. Add `Heroku Redis` on your add-ons
-4. Add `heroku/php` on your buildpacks
-
 ## Local development
+
+NOTE: Make sure `docker` is running
 
 ```
 composer update
 npm run dev
 ```
+
+## Heroku Setup 
+1. Add your `.env` variables 
+2. Add `JawsDB Maria` on your add-ons
+3. Add `Heroku Redis` on your add-ons
+4. Add `heroku/php` on your buildpacks
