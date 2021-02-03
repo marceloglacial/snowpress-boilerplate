@@ -1,4 +1,4 @@
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=serlares-2021)
+![Heroku](https://snowpress-boilerplate.herokuapp.com/)
 
 # SnowPress Boilerplate
 
@@ -6,8 +6,9 @@ A WordPress installation optimized for Docker and Heroku
 
 ## Live Demo
 
-- <a href="https://serlares-2021.herokuapp.com/">Heroku</a>
-- ## Stack and Features
+- <a href="https://snowpress-boilerplate.herokuapp.com/">Heroku</a>
+
+## Stack and Features
 
 - CMS: <a href="https://wordpress.org/">WordPress</a>
 - PHP dependency Manager: <a href="http://getcomposer.org/">Composer</a>
@@ -33,8 +34,14 @@ composer update
 npm run dev
 ```
 
+Open your local wordpress on: 
+
+[http://localhost:8080](http://localhost:8080)
+
 ## Heroku Setup 
-1. Add your `.env` variables 
-2. Add `JawsDB Maria` on your add-ons
-3. Add `Heroku Redis` on your add-ons
-4. Add `heroku/php` on your buildpacks
+
+1. [Connect your github repository to heroku](https://devcenter.heroku.com/articles/github-integration)
+2. Add `JawsDB Maria` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
+3. Add `Heroku Redis` on [your add-ons](https://devcenter.heroku.com/articles/managing-add-ons)
+4. Add `heroku/php` on your buildpacks (settings page)
+5. Add your `.env` variables on [settings page](https://devcenter.heroku.com/articles/config-vars)
