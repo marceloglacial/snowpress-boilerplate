@@ -13,4 +13,5 @@ web/wp
 web/app/mu-plugins/*/
 web/app/plugins/*/
 web/app/themes/*/
+web/app/uploads/*/
 vendor
